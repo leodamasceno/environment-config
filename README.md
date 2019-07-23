@@ -15,8 +15,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 Add the following content to your $HOME/.vimrc file:
 
-```
-" vim:foldmethod=marker:foldlevel=0
+```" vim:foldmethod=marker:foldlevel=0
 
 " Plugins {{{
 set nocompatible              " be iMproved, required
@@ -375,6 +374,9 @@ let g:fzf_action = {
 " Default fzf layout
 " - down / up / left / right
 let g:fzf_layout = { 'down': '~40%' }
+
+" Vim stuff"
+let g:terraform_align=1
 
 " In Neovim, you can set up fzf window using a Vim command
 "let g:fzf_layout = { 'window': 'enew' }
